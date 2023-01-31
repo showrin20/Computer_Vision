@@ -1,4 +1,4 @@
-			Image show
+			#Image show
 
 
 import cv2
@@ -8,7 +8,7 @@ cv2.imshow("Output",img)
 cv2.waitKey(5000)
 
 
-			Video Show
+			#Video Show
 
 import cv2
 cap = cv2.VideoCapture("Resourses/footpanda.mp4")
@@ -20,7 +20,7 @@ while True:
         break
 
 
-			Webcam
+			#Webcam
 
 import cv2
 cap = cv2.VideoCapture(0)
@@ -34,7 +34,7 @@ while True:
         break
 
 
-			Function
+			#Function
 
 
 import cv2
@@ -57,7 +57,7 @@ cv2.waitKey(0)
 
 
 	
-			Crop and resize 
+			#Crop and resize 
 
 
 import cv2
@@ -75,7 +75,7 @@ cv2.imshow("Image Cropped", imgCropped)
 cv2.waitKey(0)
 
 
-			Text and shapes
+			#Text and shapes
 
 
 import cv2
@@ -94,7 +94,7 @@ cv2.imshow("Image",img)
 cv2.waitKey(0)
 
 
-		     Wrap Perspective 
+		    # Wrap Perspective 
 
 import cv2
 import numpy as np
@@ -112,7 +112,7 @@ cv2.imshow("Output",imOutput)
 cv2.waitKey(0)
 
 
-			Joining Image
+			#Joining Image
 
 
 import cv2
@@ -187,7 +187,7 @@ cv2.waitKey(0)
 
 
 
-			Color Detection(without stack)
+			#Color Detection(without stack)
 
 
 import cv2
@@ -226,7 +226,7 @@ while True:
 
 
 
-			Color Detection(with stack)
+			#Color Detection(with stack)
 
 
 import cv2
@@ -302,7 +302,7 @@ while True:
     cv2.waitKey(1)
 
 
-			Contours/Shape Detection
+			#Contours/Shape Detection
 
 
 
@@ -400,8 +400,7 @@ cv2.waitKey(0)
 
 	
 
-			Face Detection
-			Viola & Jones
+			#Face Detection Viola & Jones
 
 
 import cv2
