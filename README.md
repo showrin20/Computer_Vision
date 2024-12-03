@@ -25,9 +25,9 @@ Transforming or enhancing images to prepare them for further analysis.
 Preparing labeled data to train supervised machine learning models by marking objects or areas of interest.
 
 - **Types of Annotations:**
-  - *Classification Labels:* Label entire images (e.g., "cat" or "dog").
+  - *Classification Labels:* Label entire images 
   - *Bounding Boxes:* Outline objects for object detection tasks.
-  - *Semantic Segmentation:* Classify each pixel into categories (e.g., "road" or "car").
+  - *Semantic Segmentation:* Classify each pixel into categories 
   - *Instance Segmentation:* Distinguish between multiple instances of the same object.
 
 #### 4. Feature Extraction
